@@ -1,0 +1,68 @@
+import type { CultureItem } from '../types';
+
+export const cultureItems: CultureItem[] = [
+  {
+    id: 'culture-rituals',
+    title: 'Rituals & Observances',
+    subtitle: 'Sacred traditions & rites',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-festivals',
+    title: 'Festivals & Celebrations',
+    subtitle: 'Seasonal & village gatherings',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-practices',
+    title: 'Traditional Practices',
+    subtitle: 'Living ancestral customs',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-food',
+    title: 'Food & Culinary Traditions',
+    subtitle: 'Local recipes & indigenous grains',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-music-dance',
+    title: 'Music & Dance',
+    subtitle: 'Folk rhythms, songs & instruments',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-clothing',
+    title: 'Traditional Attire & Weaves',
+    subtitle: 'Local clothing & handloom traditions',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-crafts',
+    title: 'Village Crafts & Artforms',
+    subtitle: 'Handmade crafts, pottery & woodwork',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+  {
+    id: 'culture-customs',
+    title: 'Village Customs & Etiquette',
+    subtitle: 'Community gatherings & social conventions',
+    description: 'Information coming soon.',
+    culturalNote: 'To be documented from local knowledge.',
+    status: 'placeholder',
+  },
+];

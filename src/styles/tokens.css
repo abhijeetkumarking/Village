@@ -1,0 +1,120 @@
+/* ==========================================================================
+   DESIGN TOKENS - ALUARA VILLAGE ARCHIVE
+   Palette: Forest green, Deep green, Warm cream, Off-white, Terracotta, Earth brown, Muted gold
+   Typography: Editorial serif, Clean sans, Subtle handwritten accent
+   ========================================================================== */
+
+:root {
+  /* --- Colors: Jharkhand Forest & Earth Palette --- */
+  --color-forest: #1d3a24;
+  --color-forest-dark: #122417;
+  --color-forest-deep: #0c1810;
+  --color-forest-light: #2b5435;
+  --color-forest-subtle: #24462c;
+
+  --color-deep-green: #0f2415;
+  --color-deep-green-surface: #162f1d;
+
+  --color-terracotta: #b85333;
+  --color-terracotta-dark: #963f25;
+  --color-terracotta-light: #cf694b;
+  --color-terracotta-wash: rgba(184, 83, 51, 0.08);
+
+  --color-earth: #5c4033;
+  --color-earth-dark: #3d2817;
+  --color-earth-light: #7c5c4c;
+  --color-earth-faint: rgba(92, 64, 51, 0.1);
+
+  --color-gold: #c59b27;
+  --color-gold-warm: #d4af37;
+  --color-gold-light: #ebd68d;
+  --color-gold-wash: rgba(197, 155, 39, 0.12);
+
+  --color-cream: #fbf8f1;
+  --color-cream-warm: #f7f1e4;
+  --color-offwhite: #f4eee1;
+  --color-parchment: #ebe2cf;
+  --color-parchment-border: #dcd0ba;
+
+  --color-ink: #1a1e1b;
+  --color-ink-muted: #4e5550;
+  --color-ink-faint: #747c75;
+  --color-ink-light: #9ea59f;
+
+  /* --- Verification Status Tokens --- */
+  --status-verified-bg: rgba(29, 58, 36, 0.12);
+  --status-verified-text: #174223;
+  --status-verified-border: rgba(29, 58, 36, 0.28);
+
+  --status-draft-bg: rgba(197, 155, 39, 0.15);
+  --status-draft-text: #825f0a;
+  --status-draft-border: rgba(197, 155, 39, 0.35);
+
+  --status-placeholder-bg: rgba(184, 83, 51, 0.1);
+  --status-placeholder-text: #963f25;
+  --status-placeholder-border: rgba(184, 83, 51, 0.25);
+
+  /* --- Typography --- */
+  --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-accent: 'Kalam', 'Caveat', cursive;
+
+  /* Fluid Font Scale using clamp() */
+  --text-xs: clamp(0.75rem, 0.72rem + 0.15vw, 0.8125rem);
+  --text-sm: clamp(0.8438rem, 0.82rem + 0.2vw, 0.9375rem);
+  --text-base: clamp(0.9688rem, 0.94rem + 0.25vw, 1.0625rem);
+  --text-lg: clamp(1.125rem, 1.07rem + 0.35vw, 1.25rem);
+  --text-xl: clamp(1.2813rem, 1.2rem + 0.5vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.35rem + 0.8vw, 1.875rem);
+  --text-3xl: clamp(1.875rem, 1.65rem + 1.2vw, 2.375rem);
+  --text-4xl: clamp(2.25rem, 1.95rem + 1.8vw, 3.125rem);
+  --text-5xl: clamp(2.75rem, 2.3rem + 2.5vw, 4rem);
+  --text-hero: clamp(3.25rem, 2.6rem + 3.8vw, 5.75rem);
+
+  /* --- Spacing --- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+  --space-16: 4rem;
+  --space-20: 5rem;
+  --space-24: 6rem;
+  --space-32: 8rem;
+
+  /* --- Layout & Containers --- */
+  --container-max: 1240px;
+  --container-narrow: 880px;
+  --header-height: 72px;
+
+  /* --- Border Radius --- */
+  --radius-xs: 3px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* --- Shadows & Depth --- */
+  --shadow-subtle: 0 1px 3px rgba(26, 30, 27, 0.05), 0 1px 2px rgba(26, 30, 27, 0.04);
+  --shadow-card: 0 4px 14px rgba(26, 30, 27, 0.06), 0 1px 3px rgba(26, 30, 27, 0.03);
+  --shadow-card-hover: 0 12px 28px rgba(26, 30, 27, 0.1), 0 3px 8px rgba(184, 83, 51, 0.06);
+  --shadow-modal: 0 20px 48px rgba(12, 24, 16, 0.3), 0 8px 16px rgba(12, 24, 16, 0.2);
+
+  /* --- Transitions --- */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 160ms var(--ease-editorial);
+  --transition-normal: 280ms var(--ease-editorial);
+  --transition-slow: 500ms var(--ease-editorial);
+
+  /* --- Z-index Layers --- */
+  --z-base: 1;
+  --z-sticky: 100;
+  --z-backdrop: 200;
+  --z-modal: 300;
+  --z-skip-link: 999;
+}

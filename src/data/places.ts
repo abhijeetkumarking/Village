@@ -1,0 +1,60 @@
+import type { PlaceItem } from '../types';
+
+export const placeItems: PlaceItem[] = [
+  {
+    id: 'place-temple',
+    category: 'Religious & Sacred',
+    title: 'Temple / Religious Places',
+    description: 'Place information coming soon.',
+    note: 'Sacred sites and village shrines to be documented from local community elders.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-schools',
+    category: 'Learning & Youth',
+    title: 'Schools & Educational Spaces',
+    description: 'Place information coming soon.',
+    note: 'Village learning centers and school grounds awaiting archival recording.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-water',
+    category: 'Water & Nature',
+    title: 'Water Sources & Reservoirs',
+    description: 'Place information coming soon.',
+    note: 'Wells, ponds, and natural streams essential to life in Aluara.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-community',
+    category: 'Social Gathering',
+    title: 'Community Spaces & Grounds',
+    description: 'Place information coming soon.',
+    note: 'Common meeting grounds, choupals, and open spaces where the community gathers.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-historical',
+    category: 'Heritage & Legacy',
+    title: 'Historical Places & Old Landmarks',
+    description: 'Place information coming soon.',
+    note: 'Early village structures and landmark trees awaiting oral confirmation.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-natural',
+    category: 'Nature & Landscape',
+    title: 'Natural Places & Groves',
+    description: 'Place information coming soon.',
+    note: 'Sacred groves, surrounding hills, and forest patches near Aluara.',
+    status: 'placeholder',
+  },
+  {
+    id: 'place-roads',
+    category: 'Routes & Movement',
+    title: 'Important Roads / Locations',
+    description: 'Place information coming soon.',
+    note: 'Connecting paths, village junctions, and historical cart trails.',
+    status: 'placeholder',
+  },
+];
