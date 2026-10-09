@@ -200,6 +200,23 @@ To use different fonts, update the Google Fonts `<link>` in `index.html` and mod
 
 ---
 
-## 8. License & Community Notice
+## 8. Deployment Guide
+
+Because Vite is configured with `base: './'`, the production bundle is completely host-agnostic and ready to deploy anywhere:
+
+### Vercel / Cloudflare Pages / Netlify
+- **Install Command**: `bun install`
+- **Build Command**: `bun run build`
+- **Output / Publish Directory**: `dist`
+- **Framework Preset**: `Vite`
+
+### GitHub Pages
+1. Push your repository to GitHub.
+2. In repository **Settings > Pages**, set **Source** to **GitHub Actions**.
+3. Select the static Vite build workflow or deploy the built `dist/` folder.
+
+---
+
+## 9. License & Community Notice
 
 This archive belongs to the community of **Aluara** (Bokaro, Jharkhand). Designed for preservation of indigenous memory, oral lore, and local cultural heritage.
